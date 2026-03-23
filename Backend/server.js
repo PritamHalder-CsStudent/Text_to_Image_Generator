@@ -11,7 +11,7 @@ const PORT=process.env.PORT || 4000
 const app=express()
 
 // allow muliple origins
-const allowedOrigins=['http://localhost:5173']
+const allowedOrigins=['http://localhost:5173','https://text-to-image-generator-frontend-murex.vercel.app']
 
 // middleware configaration 
 app.use(express.json())
